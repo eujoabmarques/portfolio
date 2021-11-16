@@ -68,21 +68,24 @@ footer{
 
 @media only screen and (max-device-width: 400px){
     
+    
    .header-container{
        display: flex;
        flex-direction: column;
+       margin-top: -50px;
+       padding-bottom: 100px;
    }
 
    .header{
-       margin-top: -20vh;
+       margin-top: 10px;
        text-align: center;
        justify-content: center;
    }
 
    .icon{
-       width: 200px;
+       width: 150px;
        justify-content: center;
-       margin-top: -200vh;
+       margin-top: -1000px;
     }
 
     footer{
@@ -92,5 +95,4 @@ footer{
     .footer-link{
         margin: 0 3px;
     }
-
 }
