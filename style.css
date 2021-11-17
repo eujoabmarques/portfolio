@@ -8,15 +8,15 @@
 
 .header-container{
     display:flex;
+    flex-direction: column;
     background-color: #ff8900;
-    align-items: center;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .header{
     color: #fff;
-    justify-content: center;
     text-align: center;
 }
 .header h1{
@@ -42,14 +42,14 @@
 .icon img{width: 100%;}
 .icon{
     width: 150px;
-    margin-left: 125px;
-    justify-content: center;
+    
 }
 
 /* FOOTER */
 
-footer{
+.footer{
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     background-color: #000;
@@ -60,7 +60,7 @@ footer{
 .footer-link{
     text-decoration: none;
     color: #ff8900;
-    margin: 0 10px;
+    margin-left: 5px;
 }
 
 .menu-end{
@@ -77,8 +77,7 @@ footer{
     .header h2{
         font-size: 14px;
     }
-    .icon{
-        margin-left: 34px;
-        margin-bottom: 10px;
-    }
+   footer{
+
+   }
 }
