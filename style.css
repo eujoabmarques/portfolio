@@ -16,6 +16,8 @@
 
 .header{
     color: #fff;
+    justify-content: center;
+    text-align: center;
 }
 .header h1{
     font-size: 60px;
@@ -39,8 +41,9 @@
 
 .icon img{width: 100%;}
 .icon{
-    width: 500px;
-    justify-content: end;
+    width: 150px;
+    margin-left: 125px;
+    justify-content: center;
 }
 
 /* FOOTER */
@@ -68,31 +71,14 @@ footer{
 
 @media only screen and (max-device-width: 400px){
     
-    
-   .header-container{
-       display: flex;
-       flex-direction: column;
-       margin-top: -50px;
-       padding-bottom: 100px;
-   }
-
-   .header{
-       margin-top: 10px;
-       text-align: center;
-       justify-content: center;
-   }
-
-   .icon{
-       width: 150px;
-       justify-content: center;
-       margin-top: -1000px;
+    .header h1{
+        font-size: 32px;
     }
-
-    footer{
-        font-size: 12px;
+    .header h2{
+        font-size: 14px;
     }
-
-    .footer-link{
-        margin: 0 3px;
+    .icon{
+        margin-left: 34px;
+        margin-bottom: 10px;
     }
 }
